@@ -3,7 +3,7 @@
 @tailwind utilities; */
 @import 'CardStyle.css';
 @import 'MainStyle.css';
-
+@import 'Header.css';
 body {
   background-color: rgb(247 254 231);
 }

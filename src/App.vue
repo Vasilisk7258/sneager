@@ -7,7 +7,7 @@ import Drawer from './components/Drawer.vue'
 <template>
   <!-- <Drawer> </Drawer> -->
   <div class="screen">
-    <!-- <Header /> -->
+    <Header />
     <div class="spacing">
       <div class="mainBlock">
         <h2 class="mainText">Все кроссовки</h2>
