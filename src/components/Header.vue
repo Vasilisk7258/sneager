@@ -7,16 +7,16 @@
         <p class="text-best-shop">Лучший магазин</p>
       </div>
     </div>
-    <ul class="flex items-center gap-10">
-      <li class="flex items-center gap-3 cursor-pointer text-gray-500 hover:text-black">
+    <ul class="ul">
+      <li class="li">
         <img src="/cart.svg" alt="Cart" />
         <b>1205 руб.</b>
       </li>
-      <li class="flex items-center gap-3 cursor-pointer text-gray-500 hover:text-black">
+      <li class="li">
         <img src="/heart.svg" alt="Cart" />
         <span>Закладки</span>
       </li>
-      <li class="flex items-center gap-3 cursor-pointer text-gray-500 hover:text-black">
+      <li class="li">
         <img src="/profile.svg" alt="Cart" />
         <span>Профиль</span>
       </li>
@@ -50,5 +50,21 @@
 }
 .text-best-shop {
   color: rgb(148 163 184);
+}
+.ul {
+  /* display: flex; */
+  justify-items: center;
+  gap: 2.5rem;
+}
+.li {
+  display: flex;
+  justify-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  color: rgb(148 163 184);
+  padding-bottom: 5px;
+}
+.li:hover {
+  color: black;
 }
 </style>
