@@ -30,3 +30,20 @@ defineProps({
     </div>
   </div>
 </template>
+<style scoped>
+.card {
+  position: relative;
+  background-color: white;
+  border-width: 1px;
+  border-color: rgb(241, 245, 249);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+</style>

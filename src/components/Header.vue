@@ -1,13 +1,12 @@
 <template>
   <header class="header">
-    <div class="flex items-center gap-4">
-      <img src="/logo.png" alt="Logo" class="w-10" />
+    <div class="logo_box">
+      <img src="/logo.png" alt="Logo" class="logo-image" />
       <div>
-        <h2 class="text-xl font-bold uppercase">KIRILKA Sneakers</h2>
-        <p class="text-slate-400">Лучший магазин</p>
+        <h2 class="main-text">KIRILKA Sneakers</h2>
+        <p class="text-best-shop">Лучший магазин</p>
       </div>
     </div>
-
     <ul class="flex items-center gap-10">
       <li class="flex items-center gap-3 cursor-pointer text-gray-500 hover:text-black">
         <img src="/cart.svg" alt="Cart" />
@@ -24,3 +23,32 @@
     </ul>
   </header>
 </template>
+<style scoped>
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-color: rgb(226 232 240);
+  border-bottom-width: 1px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.logo_box {
+  display: flex;
+  justify-items: center;
+  gap: 1rem;
+}
+.logo-image {
+  width: 90px;
+}
+.main-text {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+}
+.text-best-shop {
+  color: rgb(148 163 184);
+}
+</style>
